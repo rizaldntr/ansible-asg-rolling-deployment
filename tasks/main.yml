@@ -139,7 +139,7 @@
     period: 120
     evaluation_periods: 1
     unit: "Percent"
-    description: "This will alarm when cpu usage average is lower than 5% for 15 minutes "
+    description: "This will alarm when cpu usage average is lower than 8% for 2 minutes "
     dimensions: 
       AutoScalingGroupName: "{{ asg_name }}"
     alarm_actions: 
@@ -159,7 +159,7 @@
     period: 120
     evaluation_periods: 1
     unit: "Percent"
-    description: "This will alarm when cpu usage average is higher than 90% for 15 minutes "
+    description: "This will alarm when cpu usage average is higher than 9% for 2 minutes "
     dimensions: 
       AutoScalingGroupName: "{{ asg_name }}"
     alarm_actions: 
